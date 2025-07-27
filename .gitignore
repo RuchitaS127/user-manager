@@ -1,0 +1,25 @@
+# 🌐 Angular Frontend (UserManager-ui)
+UserManager-ui/node_modules/
+UserManager-ui/dist/
+UserManager-ui/.angular/cache/
+UserManager-ui/.env
+UserManager-ui/.vscode/
+UserManager-ui/package-lock.json
+
+# ⚙️ .NET Backend (UserManager)
+UserManager/bin/
+UserManager/obj/
+UserManager/Properties/launchSettings.json
+UserManager/.vs/
+UserManager/appsettings.*.json
+UserManager/secrets.json
+
+# 🛠 General
+*.log
+*.DS_Store
+*.user
+*.suo
+*.swp
+.env
+.vscode/
+.idea/
