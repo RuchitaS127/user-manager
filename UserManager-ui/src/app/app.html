@@ -1,12 +1,12 @@
 <h1>User Manager</h1>
 
-<!-- Pass selectedUser to UserForm, and listen to formSubmit -->
+
 <app-user-form
   [user]="selectedUser"
   (formSubmit)="onFormSubmit()">
 </app-user-form>
 
-<!-- Listen for editUser event from UserList -->
+
 <app-user-form-list
   [refresh]="refreshList()"
   (editUser)="onEditUser($event)">
